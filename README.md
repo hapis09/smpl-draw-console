@@ -23,12 +23,12 @@ This program has several function:
 |               | programs.|
 |Q              | Quit|
 
-__Build__
+__Build:__
 To build and generate .jar file, run the following maven command in the project root directory:
 $ mvn clean package
 
 It will generate Simple-draw-console.jar in <project root>/target directory.
 
-__Run Application__
+__Run Application:__
 To running .jar application: 
 $ java -jar Simple-draw-console.jar
