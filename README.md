@@ -22,3 +22,13 @@ This program has several function:
 |               | behaviour of this is the same as that of the "bucket fill" tool in paint|
 |               | programs.|
 |Q              | Quit|
+
+__Build__
+To build and generate .jar file, run the following maven command in the project root directory:
+$ mvn clean package
+
+It will generate Simple-draw-console.jar in <project root>/target directory.
+
+__Run Application__
+To running .jar application: 
+$ java -jar Simple-draw-console.jar
